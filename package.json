@@ -1,0 +1,15 @@
+{
+  "name": "usb-event-sentinel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Physical USB Event Sentinel — local daemon that detects USB insertion, virtualizes device metadata, runs Claude Code threat analysis on the filesystem, and toggles local firewall rules.",
+  "type": "module",
+  "engines": {
+    "node": ">=23.6"
+  },
+  "scripts": {
+    "dev": "node src/daemon.ts",
+    "dev:real": "node src/daemon.ts --mode=real",
+    "dev:enforce": "node src/daemon.ts --mode=real --enforce"
+  }
+}

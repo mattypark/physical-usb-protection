@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Runtime state (generated pf rulesets, live state, logs)
+runtime/
+*.log
+
+# Environment / secrets
+.env
+.env.*
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Simulated mount points created at runtime
+.mounts/
